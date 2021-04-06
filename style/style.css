@@ -1,0 +1,43 @@
+/*276678 -> azul oscuro 
+1687a7 -> azul 
+d3e0ea -> azul claro
+f6f5f5 -> Color mas claro*/
+
+:root {
+  --dark-Blue: #276678;
+  --Blue: #1687a7;
+  --soft-Blue: #d3e0ea;
+  --clear-Color: #f6f5f5;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+  font-size: 62.5%;
+}
+
+.header {
+  height: 15rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-nav {
+  width: 40rem;
+}
+
+.header-nav-container ul {
+  list-style: none;
+}
+
+.header-nav-container_item li {
+  list-style: none;
+}
+
+.header-nav-container_item a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header-icon_img {
+  height: 10rem;
+}
