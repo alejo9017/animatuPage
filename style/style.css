@@ -15,29 +15,45 @@ html {
   font-size: 62.5%;
 }
 
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ol a,
+ul a {
+  text-decoration: none;
+}
+/*
+.container {
+  background-color: var(--clear-Color);
+}*/
+
 .header {
-  height: 15rem;
+  height: 12rem;
+  background-color: var(--clear-Color);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header-nav {
-  width: 40rem;
+  height: inherit;
 }
 
-.header-nav-container ul {
-  list-style: none;
+.header-nav-container li {
+  padding-left: 1rem;
 }
 
-.header-nav-container_item li {
-  list-style: none;
+.header {
+  font-size: 2rem;
 }
 
-.header-nav-container_item a {
-  text-decoration: none;
-  list-style: none;
+.header-icon {
+  height: inherit;
 }
-
 .header-icon_img {
-  height: 10rem;
+  height: 9rem;
+  padding-right: 1rem;
 }

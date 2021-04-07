@@ -1,10 +1,30 @@
 .container {
-  max-width: 1200px;
+  max-width: 110rem;
   margin-left: auto;
   margin-right: auto;
 }
-
+/*
 .header-nav-container_item {
-  padding-left: 1rem;
-  display: inline-block;
+  flex-direction: row;
+}*/
+
+.content {
+  height: inherit;
+}
+
+.header-nav {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header ol {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+.header a {
+  height: inherit;
 }
